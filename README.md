@@ -1,6 +1,12 @@
 # pcf-geoapify-address-auto
 
-Geoapify Address Auto complete is a PCF control for model driven apps, it helps the users to speedup filling in addresses in Dynamics.
+Geoapify Address Auto complete is a PCF control for model driven apps, it helps the users to speedup filling in addresses in Dynamics using the Geoapify Maps API.
+
+You need to get an aPI key from Geoapify [here](https://www.geoapify.com/)
+for the demo of the API, click [here](https://apidocs.geoapify.com/playground/geocoding)
+and the documentation of the API, click [here](https://apidocs.geoapify.com/docs/geocoding/getting-started/#autocomplete)
+
+
 
 The control is translated in the below languages,
 
