@@ -2,8 +2,8 @@
 
 Geoapify Address Auto complete is a PCF control for model driven apps, it helps the users to speedup filling in addresses in Dynamics using the Geoapify Maps API.
 
-You need to get an aPI key from Geoapify [here](https://www.geoapify.com/)
-for the demo of the API, click [here](https://apidocs.geoapify.com/playground/geocoding)
+You need to get an API key from Geoapify [here](https://www.geoapify.com/) <br />
+for the demo of the API, click [here](https://apidocs.geoapify.com/playground/geocoding) <br />
 and the documentation of the API, click [here](https://apidocs.geoapify.com/docs/geocoding/getting-started/#autocomplete)
 
 
@@ -38,11 +38,11 @@ Properties:
 
 Address properties: all of them are optional, when you select an address on the control it will fill only the configured fields below,
 
-4- Country
-5- State
-6- Zip code
-7- City
-8- Street 1
+4- Country <br />
+5- State <br />
+6- Zip code <br />
+7- City <br />
+8- Street 1 <br />
 9- Street 2
 
 
