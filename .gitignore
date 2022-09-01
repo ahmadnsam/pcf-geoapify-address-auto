@@ -12,4 +12,3 @@
 # msbuild output directories
 /bin
 /obj
-Solutions/bin/Debug/SolutionPackager.log
