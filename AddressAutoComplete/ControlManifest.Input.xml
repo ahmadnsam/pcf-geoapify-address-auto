@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="ans.address" constructor="GeoapifyAddressAutoComplete" version="1.0.0" display-name-key="GeoapifyAddressAutoComplete" description-key="Address Auto-complete control that uses Geoapify AutoComplete API" control-type="standard">
-  <property name="fulladdress" display-name-key="Full address" description-key="Full Address" of-type="SingleLine.Text" usage="bound" required="true"/>
+  <control namespace="viteapps" constructor="AddressAutoComplete" version="2.0.1" display-name-key="AddressAutoComplete" description-key="AddressAutoComplete description" control-type="standard" >
+    
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="fulladdress" display-name-key="Full address" description-key="Full Address" of-type="SingleLine.Text" usage="bound" required="true"/>
     <property name="apiKey" display-name-key="API Key" description-key="Your Geoapify API Key" of-type="SingleLine.Text" usage="input" required="true"/>
     <property name="countryCodes" display-name-key="Country Codes" description-key="filter on one or multiple country code separating them by to ISO 3166-1 Alpha-2 Use auto to detect the country by IP address Use none to default value" of-type="SingleLine.Text" usage="input" required="false"/>
     <property name="address_street1" display-name-key="Street 1" description-key="Street 1" of-type="SingleLine.Text" usage="bound" required="false"/>
@@ -10,20 +13,10 @@
     <property name="address_state" display-name-key="State/Province" description-key="State/Province" of-type="SingleLine.Text" usage="bound" required="false"/>
     <property name="address_zipcode" display-name-key="Zip Code" description-key="Zip Code" of-type="SingleLine.Text" usage="bound" required="false"/>
     <property name="address_country" display-name-key="Country" description-key="Country" of-type="SingleLine.Text" usage="bound" required="false"/>
+    
     <resources>
       <code path="index.ts" order="1"/>
-      <css path="css/GeoapifyAddressAutoComplete.css" order="1"/>
-      <resx path="strings/GeoapifyAddressAutoComplete.1025.resx" version="1.0.0"/>
-      <resx path="strings/GeoapifyAddressAutoComplete.1031.resx" version="1.0.0"/>
-      <resx path="strings/GeoapifyAddressAutoComplete.1033.resx" version="1.0.0"/>
-      <resx path="strings/GeoapifyAddressAutoComplete.1035.resx" version="1.0.0"/>
-      <resx path="strings/GeoapifyAddressAutoComplete.1036.resx" version="1.0.0"/>
-      <resx path="strings/GeoapifyAddressAutoComplete.1040.resx" version="1.0.0"/>
-      <resx path="strings/GeoapifyAddressAutoComplete.1043.resx" version="1.0.0"/>
-      <resx path="strings/GeoapifyAddressAutoComplete.3082.resx" version="1.0.0"/>
+      <css path="styles/minimal.css" order="1" />
     </resources>
-    <feature-usage>
-			<uses-feature name="Utility" required="true" />
-		</feature-usage>
   </control>
 </manifest>
